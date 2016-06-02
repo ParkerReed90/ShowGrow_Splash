@@ -1,3 +1,5 @@
+.modalDialog { display:block !important; }
+
 *,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}
 .clearfix:before,.clearfix:after{content:'';display:table}
 .clearfix:after{clear:both}
