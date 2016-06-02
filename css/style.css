@@ -32,7 +32,7 @@ scroll_cta span{font-size:64%;color:#FFF;margin-left:-60px;letter-spacing:.4em;t
 #location-nv.col-xs-12.col-sm-6.col-md-3.col-lg-3{padding:0 0 50px}
 #location-la.col-xs-12.col-sm-6.col-md-3.col-lg-3{padding:0 0 50px}
 #location-r.col-xs-12.col-sm-6.col-md-3.col-lg-3{padding:0 0 50px}
-.map-btn{background-color:#f06d54;position:absolute;width:220px;height:40px;z-index:26;text-align:center}
+.map-btn{background-color:#f06d54;position:absolute;width:250px;height:40px;z-index:26;text-align:center}
 .map-btn span{padding-top:30px;color:#fff}
 .footer{display:block;position:absolute;left:0;bottom:0;width:100%;background-color:#eeeeee;padding:5% 0;text-align:center}
 .footer small{color:#CECCCC}
