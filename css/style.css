@@ -195,7 +195,7 @@ scroll_cta span {
 
 
 #dispensery.row h1 {
-	padding: 0 5% 5%;
+	padding: 10% 5% 8% 4%;
 	margin-bottom: -5px;
 }
 
@@ -309,6 +309,7 @@ scroll_cta span {
 		padding: 0 6%;
 		height: 1190px;
 	}
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -339,6 +340,8 @@ scroll_cta span {
 		letter-spacing: 1px;
 		line-height: 20px;
 	}
+    
+    
 	
 	#about.row { padding-top:20px; }
 
@@ -386,6 +389,7 @@ scroll_cta span {
 	#about.row {
 		padding-top: 90px;
 	}
+    
 
 	/******** MODAL *********/
 	.modalDialog {
@@ -555,6 +559,7 @@ scroll_cta span {
 	video #bgvid {
 		display: none;
 	}
+
 }
 
 @media screen and (min-width: 1280px) {
