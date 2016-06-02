@@ -46,10 +46,12 @@ h3 {
 	color: #fff;
 	height: 30px;
 	width: 100px;
-	line-height: 25px;
+	line-height: 39px;
 	text-align: center;
 	border: 0;
 	transition: all .3s ease 0;
+	text-transform:uppercase;
+	letter-spacing:2px;
 }
 
 .map-btn:hover {
@@ -186,6 +188,8 @@ scroll_cta span {
 	padding: 0 5% 5%;
 }
 
+
+
 #dispensery.row h1 {
 	padding: 0 5% 5%;
 	margin-bottom: -5px;
@@ -215,14 +219,15 @@ scroll_cta span {
 .map-btn {
 	background-color: #f06d54;
 	position: absolute;
-	width: 139px;
-	height: 27px;
+	width: 180px;
+	height: 40px;
 	z-index: 26;
 	text-align: center;
+	
 }
 
 .map-btn span {
-	padding-top: 10px;
+	padding-top: 30px;
 	color: #fff;
 }
 
@@ -239,6 +244,8 @@ scroll_cta span {
 .footer small {
 	color: #CECCCC;
 }
+
+#about.row { padding-top:50px; }
 
 /******** MODAL *********/
 .modalDialog {
@@ -327,6 +334,8 @@ scroll_cta span {
 		letter-spacing: 1px;
 		line-height: 20px;
 	}
+	
+	#about.row { padding-top:20px; }
 
 	hero {
 		height: 645px;
