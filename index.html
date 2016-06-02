@@ -74,7 +74,6 @@
 
         <locations>
             <div class="max-container">
-                <div class="hideme">
                     <div class="row" id="about">
                         <div id="description" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <h1>About us</h1>
@@ -117,7 +116,6 @@
                         </ul>
 
                     </div>
-                </div>
             </div>
             <div class="footer">
                 <small>ShowGrow ©2016  All rights reserved.  </small>
@@ -140,8 +138,15 @@
     <script src="js/drawfillsvg.js"></script>
 
     <script>
-      $(document).ready(function(){$(window).scroll(function(){$(".hideme").each(function(){var b=$(this).position().top+$(this).outerHeight(),c=$(window).scrollTop()+$(window).height();c>b&&$(this).animate({opacity:"1"},1200)})})}),function(){var a=new DrawFillSVG({elementId:"svg"});document.getElementById("animate").addEventListener("click",function(){a.replay()})}();
-    </script>
+      (function() {
+        var myAnimation = new DrawFillSVG({
+          elementId: "svg"
+        });
+        document.getElementById("animate").addEventListener( "click", function() {
+          myAnimation.replay();
+        });
+      })();
+</script>
 
 </body>
 
