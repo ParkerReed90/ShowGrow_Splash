@@ -237,7 +237,8 @@ scroll_cta span {
 	bottom: 0;
 	width: 100%;
 	background-color: #000;
-	padding: 10% 0 1% 4%;
+	padding: 5% 0 5% 0vw;
+    text-align: center;
 }
 
 .footer small {
@@ -365,7 +366,7 @@ scroll_cta span {
 
 	locations {
 		padding: 0 6%;
-		height: 850px;
+		height: 940px;
 	}
 
 	#locationVid {
@@ -434,7 +435,7 @@ scroll_cta span {
 	}
 
 	#dispensery.row h1 {
-		padding: 0 5% 5%;
+		padding: 5% 5% 5%;
 		margin-bottom: -5px;
 	}
 
@@ -492,7 +493,7 @@ scroll_cta span {
 	}
 
 	#dispensery.row h1 {
-		padding: 3% 4% 2%;
+		padding: 3% 4% 4%;
 		margin-bottom: -5px;
 	}
 
@@ -529,7 +530,7 @@ scroll_cta span {
 
 	locations {
 		padding: 0 10%;
-		height: 720px;
+		height: 840px;
 	}
 
 	.max-container {
@@ -550,14 +551,14 @@ scroll_cta span {
 @media screen and (min-width: 1280px) {
 	locations {
 		padding: 0 14%;
-		height: 750px;
+		height: 840px;
 	}
 }
 
 @media screen and (min-width: 1400px) {
 	locations {
 		padding: 0 20%;
-		height: 850px;
+		height: 900px;
 	}
 }
 
