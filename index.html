@@ -16,7 +16,6 @@
 
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/set2.css" />
 
 
     <!--[if IE]>
@@ -203,46 +202,11 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/modernizr.js"></script>
     <script src="js/drawfillsvg.js"></script>
 
     <script>
-        $(document).ready(function() {
-
-            /* Every time the window is scrolled ... */
-            $(window).scroll(function() {
-
-                /* Check the location of each desired element */
-                $('.hideme').each(function(i) {
-
-                    var bottom_of_object = $(this).position().top + $(this).outerHeight();
-                    var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-                    /* If the object is completely visible in the window, fade it it */
-                    if (bottom_of_window > bottom_of_object) {
-
-                        $(this).animate({
-                            'opacity': '1'
-                        }, 1500);
-
-                    }
-
-                });
-
-            });
-
-        });
-    </script>
-    <script>
-        (function() {
-            var myAnimation = new DrawFillSVG({
-                elementId: "svg"
-            });
-            document.getElementById("animate").addEventListener("click", function() {
-                myAnimation.replay();
-            });
-        })();
+      $(document).ready(function(){$(window).scroll(function(){$(".hideme").each(function(){var b=$(this).position().top+$(this).outerHeight(),c=$(window).scrollTop()+$(window).height();c>b&&$(this).animate({opacity:"1"},1500)})})}),function(){var a=new DrawFillSVG({elementId:"svg"});document.getElementById("animate").addEventListener("click",function(){a.replay()})}();
     </script>
 
 </body>
