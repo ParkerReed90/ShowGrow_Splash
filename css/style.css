@@ -13,11 +13,7 @@ p{font-family:'Open Sans',sans-serif;font-size:12px;letter-spacing:1px;line-heig
 body{height:100%;margin:0;min-height:100%;background:#FFF;font-family:'Open Sans',sans-serif;border:15px solid #FFF;background-image:url(../img/mobile/bg.jpg)}
 #bgvid{position:fixed;top:50%;left:50%;min-width:100%;min-height:100%;width:auto;height:auto;z-index:-100;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);background:url(../img/headerCover.jpg) no-repeat;background-size:cover;-webkit-transition:1s opacity;transition:1s opacity}
 .container{margin:0 auto}
-<<<<<<< HEAD
 locations{position:absolute;top:100%;left:0;height:1250px;width:100%;display:block;background:#fff;padding:0 4%}
-=======
-locations{position:absolute;top:100%;left:0;height:1280px;width:100%;display:block;background:#fff;padding:0 4%}
->>>>>>> 3e5ec4862a0a724a15fea6bccd25a1224848ff84
 hero{height:75vh;width:100%;margin:0 auto;padding:0;display:flex;justify-content:center;align-items:center;overflow:auto}
 hero .logo{max-width:90%;height:auto}
 hero div{color:#FFF;width:100%;padding:0;padding-top:10px;display:block;text-align:center}
