@@ -16,7 +16,7 @@ body{height:100%;margin:0;min-height:100%;background:#FFF;font-family:'Open Sans
 locations{position:absolute;top:100%;left:0;height:1380px;width:100%;display:block;background:#fff;padding:0 4%}
 hero{height:75vh;width:100%;margin:0 auto;padding:0;display:flex;justify-content:center;align-items:center;overflow:auto}
 hero .logo{max-width:90%;height:auto}
-hero div{color:#FFF;width:100%;padding:0;padding-top:10px;display:block;text-align:center}
+hero div{color:#FFF;width:100%;padding:0;padding-top:10px;display:block;text-align:center;overflow: hidden}
 .icon img{position:absolute;width:35px;height:25px;top:12px;left:10px;background-size:100%;z-index:500}
 button,html input[type=button],input[type=reset],input[type=submit]{background-color:transparent;border:none}
 #form-btn{position:absolute;top:20px;left:35%;color:#FFF;}
