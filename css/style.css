@@ -19,7 +19,8 @@ hero .logo{max-width:90%;height:auto}
 hero div{color:#FFF;width:100%;padding:0;padding-top:10px;display:block;text-align:center}
 .icon img{position:absolute;width:35px;height:25px;top:12px;left:10px;background-size:100%;z-index:500}
 button,html input[type=button],input[type=reset],input[type=submit]{background-color:transparent;border:none}
-#form-btn{position:absolute;top:25px;left:35%;font-size:64%;color:#FFF;letter-spacing:.4em;text-transform:uppercase}
+#form-btn{position:absolute;top:20px;left:35%;color:#FFF;}
+#form-btn input{text-transform:uppercase; letter-spacing:1px; font-size:.8em;}
 scroll_cta{position:absolute;bottom:-40px;left:50%;z-index:200}
 scroll_cta span{font-size:64%;color:#FFF;margin-left:-60px;letter-spacing:.4em;text-transform:uppercase}
 .verticalLine{height:80px;margin-top:10px;border-left:1px solid #CCC}
@@ -33,7 +34,7 @@ scroll_cta span{font-size:64%;color:#FFF;margin-left:-60px;letter-spacing:.4em;t
 #location-r.col-xs-12.col-sm-6.col-md-3.col-lg-3{padding:0 0 50px}
 .map-btn{background-color:#f06d54;position:absolute;width:220px;height:40px;z-index:26;text-align:center}
 .map-btn span{padding-top:30px;color:#fff}
-.footer{display:block;position:absolute;left:0;bottom:0;width:100%;background-color:#000;padding:5% 0;text-align:center}
+.footer{display:block;position:absolute;left:0;bottom:0;width:100%;background-color:#eeeeee;padding:5% 0;text-align:center}
 .footer small{color:#CECCCC}
 #about.row{padding-top:50px}
 .modalDialog{position:fixed;font-family:Arial,Helvetica,sans-serif;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,0.8);z-index:99999;opacity:0;-webkit-transition:opacity 400ms ease-in;-moz-transition:opacity 400ms ease-in;transition:opacity 400ms ease-in;pointer-events:none}
@@ -77,7 +78,7 @@ scroll_cta span{font-size:64%;color:#FFF;margin-left:-60px;letter-spacing:.4em;t
 .input__field--nao:focus ~ .graphic--nao,.input--filled .graphic--nao{stroke:#333;-webkit-transform:translate3d(-66.6%,0,0);transform:translate3d(-66.6%,0,0)}
 .input--shoko{overflow:hidden;padding-bottom:2.5em}
 .input__field--shoko{padding:0;margin-top:1.2em;width:100%;background:transparent;color:#fff;font-size:1.55em}
-.input__label--shoko{position:absolute;top:2em;left:0;display:block;width:100%;text-align:left;padding:0;text-transform:uppercase;letter-spacing:1px;color:#FFF;pointer-events:none;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transition:-webkit-transform .2s 0.1s,color .3s;transition:transform .2s 0.1s,color .3s;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out}
+.input__label--shoko{position:absolute;top:1.8em;left:0;display:block;width:100%;text-align:left;padding:0;text-transform:uppercase;letter-spacing:1px;color:#FFF;pointer-events:none;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transition:-webkit-transform .2s 0.1s,color .3s;transition:transform .2s 0.1s,color .3s;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out}
 .graphic--shoko{stroke:#FFF;pointer-events:none;stroke-width:2px;top:1.25em;bottom:0;height:3.275em;-webkit-transition:-webkit-transform 0.7s,stroke .7s;transition:transform 0.7s,stroke .7s;-webkit-transition-timing-function:cubic-bezier(0,0.25,0.5,1);transition-timing-function:cubic-bezier(0,0.25,0.5,1)}
 .input__field--shoko:focus + .input__label--shoko,.input--filled .input__label--shoko{color:#FFF;-webkit-transform:translate3d(0,3.5em,0) scale3d(0.85,0.85,1);transform:translate3d(0,3.5em,0) scale3d(0.85,0.85,1)}
 .input__field--shoko:focus ~ .graphic--shoko,.input--filled .graphic--shoko{stroke:#FFF;-webkit-transform:translate3d(-66.6%,0,0);transform:translate3d(-66.6%,0,0)}
@@ -198,7 +199,8 @@ p{font-family:'Open Sans',sans-serif;font-size:12px;letter-spacing:1px;line-heig
 hero{height:75vh;width:85%;margin:0 auto;padding-top:250px;display:flex;justify-content:center;align-items:center;overflow:auto}
 hero .logo{max-width:85%;height:auto}
 hero div{color:#FFF;width:85%;padding:0;padding-top:10px;display:block;text-align:center}
-#form-btn{top:20px;left:50%;font-size:85%}
+#form-btn{top:20px;left:50%;font-size:85%;}
+#form-btn input{text-transform:uppercase; letter-spacing:1px; font-size:.8em;}
 locations{padding:0 6%;height:930px}
 #locationVid{width:100%;padding-top:20px}
 #about.row{padding-top:90px}
@@ -224,7 +226,8 @@ h2{font-family:'Open Sans',sans-serif;text-transform:uppercase;font-size:15px;le
 h3{font-family:'Open Sans',sans-serif;font-size:14px;letter-spacing:1px;line-height:25px}
 p{font-family:'Open Sans',sans-serif;font-size:12px;letter-spacing:1px;line-height:20px;margin-top:-11px}
 #dispensery.row h1{padding:3% 4% 4%;margin-bottom:-5px}
-#form-btn{top:20px;left:57%;font-size:85%}
+#form-btn{top:20px;left:58%;font-size:85%;}
+#form-btn input{text-transform:uppercase; letter-spacing:1px; font-size:.8em;}
 hero{height:75vh;max-width:70%;margin:0 auto;padding-top:50px;display:flex;justify-content:center;align-items:center;overflow:auto}
 hero .logo{max-width:70%;height:auto}
 hero div{color:#FFF;max-width:70%;padding:0;padding-top:10px;display:block;text-align:center}
