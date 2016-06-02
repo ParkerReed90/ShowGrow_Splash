@@ -1,0 +1,151 @@
+/*
+Theme Name: AYAN - Creative CSS3 Link Hover Effects
+Author: Ashfaq Ahmed @ Reverie Tech
+Blog: http://codeconvey.com/
+Version: 1.2
+*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
+/* ******************************************************
+	Basic Styling
+*********************************************************/
+
+.ayanEffects ul{
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+.ayanEffects li{
+	list-style:none;
+	display:inline-block;
+	margin: 15px 25px;
+	text-align:left;
+}
+.ayanEffects li a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1.15em;
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #f06d54;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align:left;
+}
+.ayanEffects a:hover,
+.ayanEffects a:focus {
+	outline: none;
+}
+
+
+
+
+/* ******************************************************
+	Effect 15: Border Style #4 .ayanHoverEffect_15
+*********************************************************/
+
+.ayanHoverEffect_15 a {
+  color: #f06d54;
+  margin: 0 20px;
+  padding: 10px;
+  position: relative;
+  text-align:left;
+  margin-left:-34px;
+  overflow: hidden;
+  display: inline-block;
+  -moz-transition: ease-out 0.3s 0.3s;
+  -o-transition: ease-out 0.3s 0.3s;
+  -webkit-transition: ease-out 0.3s;
+  -webkit-transition-delay: 0.3s;
+  transition: ease-out 0.3s 0.3s;
+}
+.ayanHoverEffect_15 a span::before {
+  width: 100%;
+  height: 2px;
+  background: #f06d54;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.ayanHoverEffect_15 a span::after {
+  width: 100%;
+  height: 2px;
+  background: #f06d54;
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.ayanHoverEffect_15 a::before {
+  width: 2px;
+  height: 100%;
+  background: #f06d54;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.ayanHoverEffect_15 a::after {
+  width: 2px;
+  height: 100%;
+  background: #f06d54;
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.ayanHoverEffect_15 a:hover {
+  color: #f06d54;
+}
+.ayanHoverEffect_15 a:hover::before, .ayanHoverEffect_15 a:hover::after {
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.ayanHoverEffect_15 a:hover span::before, .ayanHoverEffect_15 a:hover span::after {
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+
+
