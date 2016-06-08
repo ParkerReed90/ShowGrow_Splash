@@ -3,6 +3,8 @@
 .clearfix:before,.clearfix:after{content:'';display:table}
 .clearfix:after{clear:both}
 .hideme{opacity:0}
+.points { position: absolute; top:25px; right: 38%; text-align:center; font-size: 11px; text-transform: uppercase;}
+
 html{height:100%}
 h1{font-family:'Open Sans',sans-serif;font-size:18px;letter-spacing:2px;text-transform:uppercase}
 h2{font-family:'Open Sans',sans-serif;text-transform:uppercase;font-size:16px;letter-spacing:2px;padding-bottom:10px}
@@ -267,3 +269,10 @@ to{opacity:1}
 .modalDialog > div{width:700px;position:relative;margin:20vh auto;padding:15px 30px;background:#fff}
 .close{background:#fff;color:#000;line-height:25px;position:absolute;right:0;text-align:center;top:0;width:24px;text-decoration:none;font-weight:700}
 .close:hover{background:#F35A39}
+
+@media screen and (min-width: 1680px) {
+
+#form-btn input { margin-left:-14%; }
+
+
+}
