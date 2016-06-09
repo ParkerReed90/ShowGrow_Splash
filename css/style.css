@@ -3,7 +3,7 @@
 .clearfix:before,.clearfix:after{content:'';display:table}
 .clearfix:after{clear:both}
 .hideme{opacity:0}
-.points { position: absolute; top:25px; right: 38%; text-align:center; font-size: 11px; text-transform: uppercase;}
+.points { position: absolute; top:25px; right: 28%; text-align:center; font-size: 11px; text-transform: uppercase;}
 
 html{height:100%}
 h1{font-family:'Open Sans',sans-serif;font-size:18px;letter-spacing:2px;text-transform:uppercase}
@@ -193,6 +193,7 @@ scroll_cta span{font-size:64%;color:#FFF;margin-left:-60px;letter-spacing:.4em;t
 locations{padding:0 6%;height:1400px}
 }
 @media screen and (min-width: 768px) {
+.points { position: absolute; top:25px; right: 38%; text-align:center; font-size: 11px; text-transform: uppercase;}
 h1{font-family:'Open Sans',sans-serif;font-size:18px;letter-spacing:2px;text-transform:uppercase}
 h2{font-family:'Open Sans',sans-serif;text-transform:uppercase;font-size:16px;letter-spacing:2px}
 h3{font-family:'Open Sans',sans-serif;font-size:16px;letter-spacing:2px;line-height:25px}
